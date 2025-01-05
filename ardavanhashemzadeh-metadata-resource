@@ -1,0 +1,5 @@
+name: metadata-resource
+repo: https://github.com/ardavanhashemzadeh/metadata-resource
+container_image: ghcr.io/ardavanhashemzadeh/metadata-resource:main
+description: |
+  Simple concourse resource which saves build metadata to a file which may be used by tasks because by default the environment variables are only available to resources and not tasks.
